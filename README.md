@@ -39,7 +39,7 @@ Aplikacja posiada weryfikację długości wprowadzanego tekstu
 
 <img src="https://github.com/PanPeryskop/Sw/blob/main/Images/verif.jpg">
 
-## Schamat
+## Schemat
 
 Schemat jest bardzo prosty, gdyż projekt opiera się na komunikacji przez sieć WiFi.
 
@@ -67,8 +67,3 @@ Kotlin:
 - `androidx.compose.runtime.*`
 - `java.net.HttpURLConnection`
 - `java.net.URL`
-
-
-## Podsumowanie
-
-Projekt Arduinin to kompleksowe rozwiązanie IoT, które łączy mikrokontroler ESP8266 z aplikacją Android za pomocą sieci WiFi. Pozwala na zdalne sterowanie lampką za pomocą kodu wprowadzanego w aplikacji. Kod jest przesyłany do mikrokontrolera, który przetwarza go na napięcie i przekazuje do lampki, umożliwiając jej sterowanie.
