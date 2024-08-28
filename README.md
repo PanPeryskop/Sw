@@ -13,7 +13,7 @@ Wybrałem ten mikrokontroler ze względu na wbudowany moduł WiFI, który otworz
 
 Mikrokontroler: Arduino Uno
 
-img src="https://neorobot.pl/environment/cache/images/500_500_productGfx_5443/Arduino-UNO-Rev3---oryginal.webp" width="200" height="200">
+<img src="https://neorobot.pl/environment/cache/images/500_500_productGfx_5443/Arduino-UNO-Rev3---oryginal.webp" width="200" height="200">
 
 Ten mikrokontroler został zakupiony przez Szymona, więc musiałem się dostosować :).
 
@@ -29,7 +29,7 @@ Program uruchomiony na Arduino Uno to `arduino.ino`. Jest odpowiedzialny za odbi
 
 Wygląd aplikacji
 
-<img src=https://github.com/PanPeryskop/Sw/blob/main/Images/interface.jpg">
+<img src="https://github.com/PanPeryskop/Sw/blob/main/Images/interface.jpg">
 
 Aplikacja Android, napisana w Kotlinie przy użyciu `Jetpack Compose` pełni rolę UI. Umożliwia ona wprowadzanie kodu, który jest następnie wysyłany do mikrokontrolera ESP8266 za pomocą żądań HTTP.
 
@@ -43,7 +43,7 @@ Aplikacja posiada weryfikację długości wprowadzanego tekstu
 
 Schemat jest bardzo prosty, gdyż projekt opiera się na komunikacji przez sieć WiFi.
 
-<img src="https://github.com/PanPeryskop/Sw/blob/main/Images/UI.jpg">
+<img src="https://github.com/PanPeryskop/Sw/blob/main/Images/circuit.png">
 
 ## Wykorzystane biblioteki
 
