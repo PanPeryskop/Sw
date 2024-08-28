@@ -1,6 +1,6 @@
 # Projekt na Arduino
 
-Projekt jest zintegrowany z projektem Szymona Czarneckiego. Pozwala na sterowanie sejfem za pomocą aplikacji mobilnej. Następnie esp8266 komunikuje się z arduino uno za pomocą autorskiego protokołu oneWire by przesłać kod. 
+Projekt jest zintegrowany z projektem Szymona Czarneckiego. Pozwala na sterowanie sejfem za pomocą aplikacji mobilnej. Następnie esp8266 komunikuje się z arduino uno za pomocą autorskiego protokołu typu "oneWire" by przesłać kod. 
 Projekt składa się z dwóch głównych części: kodu uruchamianego na mikrokontrolerze ESP8266 napisanego w C++ i html oraz aplikacji Android napisanej w Kotlinie.
 
 ## Mikrokontrolery
