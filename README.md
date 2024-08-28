@@ -6,11 +6,13 @@ Projekt składa się z dwóch głównych części: kodu uruchamianego na mikroko
 ## Mikrokontrolery
 
 Mikrokontroler: ESP8266 NodeMCU V3
+
 <img src="https://a.allegroimg.com/s720/11ebb2/96aa321f471b9d865260ebe84031/Modul-WiFi-ESP8266-NodeMcu-V3-IoT.jpg" width="200" height="200">
 
 Wybrałem ten mikrokontroler ze względu na wbudowany moduł WiFI, który otworzył mi wiele możliwości. Dodatkowym atutem była niska cena i dobra wydajność.
 
 Mikrokontroler: Arduino Uno
+
 img src="https://neorobot.pl/environment/cache/images/500_500_productGfx_5443/Arduino-UNO-Rev3---oryginal.webp" width="200" height="200">
 
 Ten mikrokontroler został zakupiony przez Szymona, więc musiałem się dostosować :).
@@ -25,19 +27,22 @@ Program uruchomiony na Arduino Uno to `arduino.ino`. Jest odpowiedzialny za odbi
 
 ## Aplikacja Android
 
-Wygląd aplikacji:
-<img src=https://github.com/PanPeryskop/Sw/blob/main/Images/UI.jpg">
+Wygląd aplikacji
+
+<img src=https://github.com/PanPeryskop/Sw/blob/main/Images/interface.jpg">
 
 Aplikacja Android, napisana w Kotlinie przy użyciu `Jetpack Compose` pełni rolę UI. Umożliwia ona wprowadzanie kodu, który jest następnie wysyłany do mikrokontrolera ESP8266 za pomocą żądań HTTP.
 
 Aplikacja korzysta z sieci WiFi do komunikacji z mikrokontrolerem. W tym celu wykorzystuje ona usługę `WifiManager` do zarządzania połączeniem WiFi. Po uruchomieniu aplikacji, jeśli WiFi nie jest włączone, użytkownik jest przekierowywany do ustawień WiFi, aby je włączyć. Po włączeniu WiFi, aplikacja automatycznie łączy się z siecią WiFi utworzoną przez mikrokontroler ESP8266.
 
-Aplikacja posiada weryfikację długości wprowadzanego tekstu:
+Aplikacja posiada weryfikację długości wprowadzanego tekstu
+
 <img src="https://github.com/PanPeryskop/Sw/blob/main/Images/verif.jpg">
 
 ## Schamat
 
 Schemat jest bardzo prosty, gdyż projekt opiera się na komunikacji przez sieć WiFi.
+
 <img src="https://github.com/PanPeryskop/Sw/blob/main/Images/UI.jpg">
 
 ## Wykorzystane biblioteki
