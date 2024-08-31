@@ -23,7 +23,7 @@ Program uruchomiony na ESP8266 to `esp8266.ino`. Jest odpowiedzialny za komunika
 
 ## Arduino Uno
 
-Program uruchomiony na Arduino Uno to `arduino.ino`. Jest odpowiedzialny za odbieranie ciągów napięć od ESP8266 i zamiany go na kod.
+Program uruchomiony na Arduino Uno to `uno.ino`. Jest odpowiedzialny za odbieranie ciągów napięć od ESP8266 i zamiany go na kod.
 
 ## Aplikacja mobilna
 
